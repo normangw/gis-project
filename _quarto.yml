@@ -1,0 +1,27 @@
+project:
+  type: manuscript
+  output-dir: docs
+
+manuscript:
+  article: index.qmd
+  code-links:
+    - repo
+    - text: Use This Template
+      icon: box-arrow-up-right
+      href: https://github.com/new?template_name=ppol6805-project-template&template_owner=jpowerj
+      target: _blank
+
+format:
+  html:
+    df-print: kable
+    css: "./style.css"
+    mainfont: "Caslon, serif"
+  pdf: default
+  # docx: default
+  # jats: default
+
+execute:
+  freeze: true
+
+
+
